@@ -33,3 +33,14 @@ function rando_num() {
     document.getElementById("Math8") .innerHTML = Math.random() 
 }
 
+function increment_plus() {
+    var z = 5;
+    z++
+    document.getElementById("Math9") .innerHTML = z++
+}
+
+function increment_decrease() {
+    var y = 5;
+    y--
+    document.getElementById("Math10") .innerHTML = y--
+}
