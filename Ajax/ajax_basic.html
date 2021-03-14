@@ -21,7 +21,7 @@
             //STEP 3: DEFINE THE AJAX RESPONSE CALLBACK METHOD
             ajax.onreadystatechange = function() {
                 if (ajax.readyState == 4) {
-                    document.getElementById('content.html').innerHTML = ajax.responseText;
+                    document.getElementById('content').innerHTML = ajax.responseText;
                 }
             };
 
